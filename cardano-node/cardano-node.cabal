@@ -1,4 +1,4 @@
-cabal-version: 2.4
+cabal-version: >=1.10
 
 name:                  cardano-node
 version:               1.18.0
@@ -302,4 +302,4 @@ test-suite cardano-node-test
                         -Wcompat
                         -threaded -rtsopts -with-rtsopts=-N -with-rtsopts=-T
 
-  build-tool-depends:   cardano-node:cardano-node
+  build-tools-depends:   cardano-node:cardano-node
